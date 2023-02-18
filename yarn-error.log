@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Users\Charles\.nvm\versions\node\v16.17.0\bin\node.exe C:\Users\Charles\.nvm\versions\node\v16.17.0\bin\node_modules\yarn\bin\yarn.js add @react-navigation/native
+
+PATH: 
+  C:\Users\Charles\.nvm\versions\node\v16.17.0\bin;C:\Users\Charles\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Charles\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\HP\Common\HPDestPlgIn;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs;C:\Users\Charles\AppData\Local\Microsoft\WindowsApps;C:\Users\Charles\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Charles\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Program Files (x86)\HP\Common\HPDestPlgIn;C:\Users\Charles\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Charles\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.23.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)
+
+npm manifest: 
+  {
+    "name": "aidyapplication",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~47.0.12",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
